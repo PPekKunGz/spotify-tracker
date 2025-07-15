@@ -1,22 +1,22 @@
 {
-  "dependencies": {
-    "discord.js": "^14.21.0",
-    "dotenv": "^17.1.0",
-    "node-fetch": "^3.3.2"
-  },
-  "name": "bot",
+  "name": "spotify-backend",
   "version": "1.0.0",
   "main": "index.ts",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "spotify",
-    "discord",
-    "bot"
+    "tracker",
+    "backend"
   ],
   "author": "@PPekKunGzDev",
   "license": "MIT",
-  "description": "Spotify tracker bot"
+  "description": "Spotify Tracker Backend",
+  "dependencies": {
+    "elysia": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13"
+  }
 }
